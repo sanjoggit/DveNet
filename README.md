@@ -3,15 +3,15 @@ A simple social network for developers where they can register and login. They c
 
 ## Recommended requirements
 ```
-    node >= 8.12
-    npm  >=6.4.1
+    -node >= 8.12
+    -npm  >=6.4.1
 ```
  ## Installation
  ```
-    npm install
+    -npm install
  ```
 
- #3 To run the app
+ # To run the app
 ```
-    npm run dev
+    -npm run dev
 ```
