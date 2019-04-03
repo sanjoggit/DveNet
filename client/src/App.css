@@ -1,0 +1,213 @@
+body{
+  font-family: 'Istok Web', sans-serif;
+}
+img {
+  width: 100%;
+}
+.btn, .form-control{
+  outline: none !important;
+  box-shadow: none !important;
+  outline-color: none !important;
+}
+
+.navbar{
+  background-color: #0b263b;
+}
+.nav-link{
+  color: rgb(231, 230, 230);
+}
+.sign-up{
+  border: 1px solid;
+}
+.nav-item a:hover{
+  color: rgb(211, 204, 204);
+}
+.dropdown-toggle{
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dropdown-menu a{
+  color: black;
+}
+.dropdown-menu a:hover{
+  background: rgb(206, 200, 200);
+}
+.landing {
+  position: relative;
+  background: url("./img/landing.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.fa-user, .fa-envelope, .fa-lock{ 
+  float: right;
+  bottom: -32px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.register-form{
+  background-color: rgb(224, 216, 216);
+  padding: 20px;
+  border-radius: 5px;
+}
+.register-form label{
+  color: rgb(88, 85, 85);
+}
+.landing-content{
+  display: flex;
+  align-items: center;
+}
+.card{
+  margin-bottom: 20px;
+}
+.card img{
+  height: 200px;
+  object-fit: cover;
+}
+.profile-skills span{
+  background-color: rgb(236, 227, 227);
+  margin: 2px;
+  padding: 5px;
+  display: inline-block;
+ }
+.user-info{
+  padding-bottom: unset;
+}
+.user-info p{
+  line-height: 8px;
+  color: rgb(128, 124, 124);
+}
+.user-skill{
+  padding-top: unset;
+}
+.user-skill .btn{
+  margin: 2px;
+  border-radius: unset;
+}
+.card-footer{
+  padding: inherit;
+}
+.card-footer a{
+  width: 100%;
+  padding: 8px;
+  border-radius: unset;
+}
+
+/* single profile start */
+.profile-header{
+  padding: 20px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+.profile-header p{
+  font-size: 15px;
+  font-weight: bold;
+}
+.profile-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-image img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.profile-single-skill{
+  display: inline-block;
+  padding: 10px 15px;
+  background: rgb(134, 93, 17);
+  margin-left: 3px;
+  margin-bottom: 3px;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+/* post feed */
+.post-feed{
+  padding: initial;
+}
+.post-feed form{
+  display: flex;
+  width: 50%;
+}
+.post-feed img{
+  height: 78px;
+  width: 70px;
+  border: 1px solid rgb(209, 205, 205);
+  padding: 5px;
+  border-right: none;  
+}
+.post-feed textarea{
+  border-left: none;
+  margin-left: -18px;
+  resize: none;
+}
+.post-feed .btn{
+  height: 77px;
+  margin-left: -25px;
+}
+
+.post-feed-item img{
+  height: 60px;
+  width: 60px;
+}
+.feed .card{
+  padding: 10px;
+}
+
+.post-feed-item .card-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.post-feed-item .card-right{
+  padding: 0;
+}
+
+/* Comment feeds */
+.comment-feed-item img{
+  height: 60px;
+  width: 60px;
+}
+.comment-feed-item .card-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
