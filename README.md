@@ -1,3 +1,17 @@
 # DevNet
-a simple social network for developers where user can register and login. They can create their profile and post feed and gets likes and comment.
- ## To run this app type npm run dev
+A simple social network for developers where they can register and login. They can create their profile and share post and gets likes and comment.
+
+## Recommended requirements
+```
+    node >= 8.12
+    npm  >=6.4.1
+```
+ ## Installation
+ ```
+    npm install
+ ```
+
+ #3 To run the app
+```
+    npm run dev
+```
